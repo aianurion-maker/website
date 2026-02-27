@@ -3,32 +3,32 @@ import Link from 'next/link';
 
 const phases = [
   {
-    title: 'Phase 1 — Discovery (Week 1)',
+    title: 'Phase 1 — Discovery',
     body: 'We dive deep into your goals, users, and constraints. If you don’t have an idea yet, we run a structured ideation session to find the right one.',
   },
   {
-    title: 'Phase 2 — Planning & Architecture (Week 1–2)',
+    title: 'Phase 2 — Planning & Architecture',
     body: 'We map out the product blueprint: tech stack, timelines, wireframes, and feature scope. You approve before we write a single line of code.',
   },
   {
-    title: 'Phase 3 — Design (Week 2–3)',
+    title: 'Phase 3 — Design',
     body: 'High-fidelity UI/UX designs delivered in Figma. Two rounds of revisions included.',
   },
   {
-    title: 'Phase 4 — Development (Week 3–8+)',
-    body: 'Agile sprints. Weekly demos. Transparent progress updates. AI-accelerated development means faster timelines without cutting corners.',
+    title: 'Phase 4 — Development',
+    body: 'Agile sprints, demos, and transparent progress updates. AI-accelerated development means faster timelines without cutting corners.',
   },
   {
-    title: 'Phase 5 — Testing & QA (Week 7–8)',
+    title: 'Phase 5 — Testing & QA',
     body: 'Rigorous testing across devices, browsers, and edge cases. Security audits where required.',
   },
   {
-    title: 'Phase 6 — Deployment (Week 8)',
+    title: 'Phase 6 — Deployment',
     body: 'We deploy to production, configure domains, set up monitoring, and hand over all credentials.',
   },
   {
-    title: 'Phase 7 — Support & Growth (Ongoing)',
-    body: 'Optional retainer for ongoing maintenance, feature additions, and scaling.',
+    title: 'Phase 7 — Support & Growth',
+    body: 'Optional retainer for maintenance, feature additions, and scaling.',
   },
 ];
 
