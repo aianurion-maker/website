@@ -1,40 +1,23 @@
 import FadeInSection from '../../components/FadeInSection';
-import {
-  SiPython,
-  SiPytorch,
-  SiTensorflow,
-  SiHuggingface,
-  SiLangchain,
-  SiOpenai,
-  SiNextdotjs,
-  SiReact,
-  SiNodedotjs,
-  SiFastapi,
-  SiPostgresql,
-  SiDocker,
-  SiAmazonaws,
-  SiVercel,
-  SiFigma,
-  SiMongodb,
-} from '@icons-pack/react-simple-icons';
 
-const techLogos = [
-  { Icon: SiPython, label: 'Python' },
-  { Icon: SiPytorch, label: 'PyTorch' },
-  { Icon: SiTensorflow, label: 'TensorFlow' },
-  { Icon: SiHuggingface, label: 'HuggingFace' },
-  { Icon: SiLangchain, label: 'LangChain' },
-  { Icon: SiOpenai, label: 'OpenAI' },
-  { Icon: SiNextdotjs, label: 'Next.js' },
-  { Icon: SiReact, label: 'React' },
-  { Icon: SiNodedotjs, label: 'Node.js' },
-  { Icon: SiFastapi, label: 'FastAPI' },
-  { Icon: SiPostgresql, label: 'PostgreSQL' },
-  { Icon: SiMongodb, label: 'MongoDB' },
-  { Icon: SiDocker, label: 'Docker' },
-  { Icon: SiAmazonaws, label: 'AWS' },
-  { Icon: SiVercel, label: 'Vercel' },
-  { Icon: SiFigma, label: 'Figma' },
+const technologies = [
+  'Python',
+  'PyTorch',
+  'TensorFlow',
+  'HuggingFace',
+  'LangChain',
+  'OpenAI',
+  'Next.js',
+  'React',
+  'Node.js',
+  'FastAPI',
+  'PostgreSQL',
+  'MongoDB',
+  'Pinecone',
+  'Docker',
+  'AWS',
+  'Vercel',
+  'Figma',
 ];
 
 export default function ServicesPage() {
@@ -485,15 +468,14 @@ export default function ServicesPage() {
               Modern, proven tools across AI, infrastructure, and product engineering.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6">
-            {techLogos.map(({ Icon, label }) => (
-              <div
+          <div className="flex flex-wrap gap-2">
+            {technologies.map((label) => (
+              <span
                 key={label}
-                className="flex flex-col items-center gap-2 rounded-2xl border border-white/5 bg-navy-950/60 px-3 py-3 text-xs text-zinc-300"
+                className="rounded-full border border-white/10 bg-navy-950/70 px-3 py-1 text-xs text-zinc-200"
               >
-                <Icon className="h-5 w-5 text-cyan-400" />
-                <span>{label}</span>
-              </div>
+                {label}
+              </span>
             ))}
           </div>
         </section>
