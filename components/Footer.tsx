@@ -80,7 +80,13 @@ export default function Footer() {
                 anurional.com
               </a>
               <div className="mt-2 flex gap-3 text-zinc-400">
-                <a href="#" aria-label="LinkedIn" className="hover:text-cyan-400">
+                <a
+                  href="https://www.linkedin.com/company/anurion-ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="hover:text-cyan-400"
+                >
                   <LinkedinIcon size={18} />
                 </a>
               </div>
