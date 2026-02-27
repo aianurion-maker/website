@@ -1,11 +1,26 @@
 'use client';
 
 import { useState } from 'react';
-
-const FORMSPREE_ACTION = 'https://formspree.io/f/mlgwvebz';
+import type React from 'react';
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const response = await fetch('https://formspree.io/f/mlgwvebz', {
+      method: 'POST',
+      body: data,
+      headers: { Accept: 'application/json' },
+    });
+    if (response.ok) {
+      setSubmitted(true);
+    } else {
+      alert('Something went wrong. Please email us at mailus@anurional.com');
+    }
+  };
 
   return (
     <div className="rounded-2xl border border-white/5 bg-navy-900/50 p-6 shadow-lg shadow-black/40 sm:p-8">
@@ -20,10 +35,8 @@ export default function ContactForm() {
         </div>
       ) : (
         <form
-          action={FORMSPREE_ACTION}
-          method="POST"
           className="space-y-4 text-sm text-zinc-200"
-          onSubmit={() => setSubmitted(true)}
+          onSubmit={handleSubmit}
         >
           <div className="space-y-1.5">
             <label htmlFor="name" className="text-xs font-medium text-zinc-400">
@@ -108,8 +121,7 @@ export default function ContactForm() {
           </button>
 
           <p className="text-[0.7rem] text-zinc-500">
-            This form is powered by Formspree. Replace the form ID in the code with
-            your live endpoint before going to production.
+            This form is powered by Formspree.
           </p>
         </form>
       )}
