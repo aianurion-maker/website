@@ -337,9 +337,6 @@ export default function Home() {
               >
                 Get In Touch →
               </a>
-              <p className="text-[0.7rem] text-zinc-400">
-                mailus@anurional.com
-              </p>
             </div>
           </div>
         </FadeInSection>
