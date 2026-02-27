@@ -333,10 +333,13 @@ export default function Home() {
               </p>
               <a
                 href="mailto:mailus@anurional.com"
-                className="inline-flex items-center justify-center rounded-full bg-cyan-500 px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-navy-950 transition hover:bg-cyan-400"
+                className="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-2 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-navy-950 transition hover:bg-cyan-400"
               >
-                Email Us at mailus@anurional.com
+                Get In Touch →
               </a>
+              <p className="text-[0.7rem] text-zinc-400">
+                mailus@anurional.com
+              </p>
             </div>
           </div>
         </FadeInSection>

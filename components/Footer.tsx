@@ -19,7 +19,7 @@ export default function Footer() {
               Your end-to-end AI technology partner.
             </p>
             <p className="text-xs text-zinc-500">
-              © 2025 Anurion AI. All rights reserved.
+              © 2026 Anurion AI. All rights reserved.
             </p>
           </div>
 
