@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react';
+import { LinkedinIcon } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -82,12 +82,6 @@ export default function Footer() {
               <div className="mt-2 flex gap-3 text-zinc-400">
                 <a href="#" aria-label="LinkedIn" className="hover:text-cyan-400">
                   <LinkedinIcon size={18} />
-                </a>
-                <a href="#" aria-label="Twitter / X" className="hover:text-cyan-400">
-                  <TwitterIcon size={18} />
-                </a>
-                <a href="#" aria-label="GitHub" className="hover:text-cyan-400">
-                  <GithubIcon size={18} />
                 </a>
               </div>
             </div>
