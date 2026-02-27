@@ -119,10 +119,6 @@ export default function ContactForm() {
           >
             Send Message →
           </button>
-
-          <p className="text-[0.7rem] text-zinc-500">
-            This form is powered by Formspree.
-          </p>
         </form>
       )}
     </div>

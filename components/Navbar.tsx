@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -16,6 +17,16 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const handleStartProjectClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname !== '/contact') return;
+
+    e.preventDefault();
+    setOpen(false);
+    const el = document.getElementById('contact-form');
+    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   useEffect(() => {
     const onScroll = () => {
@@ -64,7 +75,8 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="/contact#contact-form"
+            onClick={handleStartProjectClick}
             className="rounded-full border border-cyan-500/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300 transition hover:bg-cyan-500 hover:text-navy-950"
           >
             Start a Project
@@ -100,8 +112,11 @@ export default function Navbar() {
                   </Link>
                 ))}
                 <Link
-                  href="/contact"
-                  onClick={() => setOpen(false)}
+                  href="/contact#contact-form"
+                  onClick={(e) => {
+                    handleStartProjectClick(e);
+                    setOpen(false);
+                  }}
                   className="mt-2 inline-flex items-center justify-center rounded-full border border-cyan-500/80 bg-cyan-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-cyan-300 transition hover:bg-cyan-500 hover:text-navy-950"
                 >
                   Start a Project

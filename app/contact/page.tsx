@@ -4,8 +4,8 @@ import ContactForm from '../../components/ContactForm';
 export default function ContactPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 lg:px-8">
-      <FadeInSection>
-        <div className="grid gap-10 md:grid-cols-[1.1fr_1.1fr] md:items-start">
+      <div className="grid gap-10 md:grid-cols-[1.1fr_1.1fr] md:items-start">
+        <FadeInSection>
           <section className="space-y-5">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
               Contact
@@ -28,9 +28,14 @@ export default function ContactPage() {
               <p>Response time: We typically respond within 24 hours.</p>
             </div>
           </section>
-          <ContactForm />
+        </FadeInSection>
+
+        <div id="contact-form" className="scroll-mt-28">
+          <FadeInSection delay={0.05}>
+            <ContactForm />
+          </FadeInSection>
         </div>
-      </FadeInSection>
+      </div>
     </div>
   );
 }
