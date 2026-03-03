@@ -1,14 +1,6 @@
 import FadeInSection from '../../components/FadeInSection';
 import Image from 'next/image';
 
-const imageLogic = '/services-llm-nlp.jpg';
-const imageNlp = '/services-nlp.jpg';
-const imageAgents = '/services-agents.jpg.png';
-const imageIntegration = '/services-integration.jpg.png';
-const imageWebUx = '/services-web-ux.jpg.png';
-const imageUiUx = '/services-ui-ux-diff.jpg';
-const imageMLOps = '/services-mlops.jpg.png';
-
 const technologies = [
   'Python',
   'PyTorch',
@@ -58,16 +50,14 @@ export default function ServicesPage() {
                 LLM Development
               </h2>
             </div>
+            <Image
+              src="/llm-service.png"
+              width={1200}
+              height={600}
+              alt="LLM Development"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageLogic}
-                  alt="Understanding and logic: language structured by machine intelligence"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We design and fine-tune large language models for your specific domain —
                 from customer support copilots to document reasoning engines.
@@ -113,15 +103,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src="/services-model-training.jpg.png"
-                  alt="Model training dashboard with metrics and LoRA/QLoRA fine-tuning"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We run the full training loop for you — data prep, experiments,
                 fine-tuning, and evaluation.
@@ -166,16 +147,14 @@ export default function ServicesPage() {
                 NLP Solutions
               </h2>
             </div>
+            <Image
+              src="/nlp-service.png"
+              width={1200}
+              height={600}
+              alt="NLP Solutions"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageNlp}
-                  alt="NLP and LLM systems turning language into structured insight"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We turn messy language data — tickets, chats, documents — into
                 structured insight with NLP and LLM pipelines.
@@ -220,15 +199,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageAgents}
-                  alt="Autonomous AI agent executing a multi-step plan across tools"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We build autonomous AI agents that plan, reason, and execute tasks across
                 your tools.
@@ -273,15 +243,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageIntegration}
-                  alt="Tablet accessing a knowledge base via RAG and vector search"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 Already have a product? We plug in RAG pipelines, smart search, and LLM
                 APIs without a full rebuild.
@@ -326,15 +287,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageWebUx}
-                  alt="Web development and UI/UX design collaboration across dashboards and prototypes"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We design and ship the web dashboards and interfaces that sit on top of
                 your AI systems.
@@ -378,15 +330,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageUiUx}
-                  alt="Difference between UX and UI with design concepts"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 AI products fail when users can&apos;t understand them. We design
                 interfaces that translate complex AI outputs into clear, intuitive
@@ -438,15 +381,6 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
-                <Image
-                  src={imageMLOps}
-                  alt="MLOps control room monitoring deployments and scaling"
-                  width={1200}
-                  height={720}
-                  className="h-44 w-full object-cover opacity-95"
-                />
-              </div>
               <p>
                 We productionise your models — serving, monitoring, and CI/CD included.
               </p>
