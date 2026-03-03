@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Anurion AI — End-to-End AI Technology Partner",
   description:
-    "Anurion AI builds complete digital products — from ideation to deployment. Strategy, design, development, and AI integration under one roof.",
+    "Anurion AI builds AI-native products — LLMs, NLP systems, AI agents, and the web experiences around them.",
   metadataBase: new URL("https://anurional.com"),
   openGraph: {
     title: "Anurion AI",
-    description: "Your complete A-to-Z technology partner.",
+    description: "Your end-to-end AI partner for LLMs, NLP, agents, and MLOps.",
     url: "https://anurional.com",
     siteName: "Anurion AI",
     type: "website",
@@ -32,8 +32,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Anurion AI",
-    description: "From idea to launch — Anurion AI builds it all.",
+    description: "From model training to launch — Anurion AI builds it all.",
     images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
 

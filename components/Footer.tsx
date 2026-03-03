@@ -56,7 +56,7 @@ export default function Footer() {
             <div className="flex flex-col gap-1 text-zinc-400">
               <span>Ideation</span>
               <span>Web Dev</span>
-              <span>App Dev</span>
+              <span>NLP Solutions</span>
               <span>AI Integration</span>
               <span>Design</span>
               <span>Deployment</span>

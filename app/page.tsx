@@ -3,6 +3,7 @@ import { ArrowDown, CheckCircle2 } from 'lucide-react';
 import FadeInSection from '../components/FadeInSection';
 import MarqueeTicker from '../components/MarqueeTicker';
 import ServiceCard from '../components/ServiceCard';
+import AIOrbit from '../components/AIOrbit';
 
 const services = [
   {
@@ -37,9 +38,9 @@ const services = [
   },
   {
     icon: '💻',
-    title: 'Web & App Development',
+    title: 'Web Development',
     description:
-      'Full-stack products built around your AI core — fast, scalable, production-ready.',
+      'Web products and interfaces built around your AI core — fast, scalable, production-ready.',
   },
   {
     icon: '🎨',
@@ -123,7 +124,8 @@ export default function Home() {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
+            <div className="relative mt-6 w-full max-w-sm space-y-4 md:mt-0 md:ml-auto">
+              <AIOrbit className="h-40" />
               <div className="rounded-3xl border border-cyan-500/20 bg-gradient-to-b from-navy-900/80 to-navy-900/20 p-5 shadow-[0_0_40px_rgba(15,23,42,0.9)] backdrop-blur">
                 <p className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-300">
                   One Team. Total Ownership.
@@ -139,7 +141,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
-                    Web, app, and product engineering
+                    Web and product engineering
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />

@@ -309,14 +309,14 @@ export default function ServicesPage() {
                 💻
               </div>
               <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
-                Web &amp; App Development
+                Web Development
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
-                Every AI system needs a great interface. We build the full product
-                around your AI core — web apps, dashboards, admin panels, and mobile
-                apps — ensuring your users can actually access and benefit from the
+                Every AI system needs a great interface. We build the web experiences
+                around your AI core — dashboards, admin panels, and client-facing
+                products — ensuring your users can actually access and benefit from the
                 intelligence you&apos;ve built.
               </p>
               <p>
@@ -336,8 +336,8 @@ export default function ServicesPage() {
                 </h3>
                 <ul className="mt-2 space-y-1 text-xs text-zinc-400">
                   <li>Full-stack web applications</li>
-                  <li>Mobile apps and companion experiences</li>
                   <li>Admin panels and internal tools</li>
+                  <li>Analytics and monitoring dashboards</li>
                   <li>Robust API layers</li>
                 </ul>
               </div>
@@ -346,7 +346,7 @@ export default function ServicesPage() {
                   Tools
                 </h3>
                 <p className="mt-2 text-xs text-zinc-400">
-                  Next.js, React, Node.js, FastAPI, PostgreSQL, MongoDB, React Native.
+                  Next.js, React, Node.js, FastAPI, PostgreSQL, MongoDB.
                 </p>
               </div>
             </div>
