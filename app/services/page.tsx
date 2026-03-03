@@ -107,6 +107,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src="/services-model-training.jpg.png"
+                  alt="Model training dashboard with metrics and LoRA/QLoRA fine-tuning"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 We run the full training loop for you — data prep, experiments,
                 fine-tuning, and evaluation.
