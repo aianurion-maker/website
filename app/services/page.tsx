@@ -289,6 +289,7 @@ export default function ServicesPage() {
                 Your app stays grounded in your data, with performance and costs tracked
                 so you can scale safely.
               </p>
+            </div>
             <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
               <div>
                 <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
@@ -443,6 +444,7 @@ export default function ServicesPage() {
                 You get clear dashboards and playbooks so your own team can run AI
                 systems with confidence.
               </p>
+            </div>
             <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
               <div>
                 <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
