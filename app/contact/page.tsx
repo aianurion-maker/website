@@ -25,6 +25,7 @@ export default function ContactPage() {
             </p>
             <div className="space-y-1 text-sm text-zinc-400">
               <p>Email: mailus@anurional.com</p>
+              <p>Phone: 8105326859</p>
               <p>Response time: We typically respond within 24 hours.</p>
             </div>
           </section>

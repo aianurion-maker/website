@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
 
 const technologies = [
@@ -24,18 +25,29 @@ export default function ServicesPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 lg:px-8">
       <FadeInSection>
-        <header className="max-w-3xl space-y-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
-            Services
-          </p>
-          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
-            AI. Built Right. From the Ground Up.
-          </h1>
-          <p className="text-sm text-zinc-400">
-            We don&apos;t just use AI — we build it. Custom models, LLM pipelines, NLP
-            systems, and full-stack AI products.
-          </p>
-        </header>
+        <div className="grid gap-8 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] md:items-center">
+          <header className="space-y-4">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
+              Services
+            </p>
+            <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
+              AI. Built Right. From the Ground Up.
+            </h1>
+            <p className="text-sm text-zinc-400">
+              We don&apos;t just use AI — we build it. Custom models, LLM pipelines, NLP
+              systems, AI agents, and the web experiences around them.
+            </p>
+          </header>
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
+            <Image
+              src="/services-model-training.jpg"
+              alt="AI model training illustration"
+              width={640}
+              height={480}
+              className="h-full w-full object-cover"
+            />
+          </div>
+        </div>
       </FadeInSection>
 
       <div className="mt-12 space-y-12">

@@ -1,9 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowDown, CheckCircle2 } from 'lucide-react';
 import FadeInSection from '../components/FadeInSection';
 import MarqueeTicker from '../components/MarqueeTicker';
 import ServiceCard from '../components/ServiceCard';
-import AIOrbit from '../components/AIOrbit';
 
 const services = [
   {
@@ -124,30 +124,16 @@ export default function Home() {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <div className="relative mt-6 w-full max-w-sm space-y-4 md:mt-0 md:ml-auto">
-              <AIOrbit className="h-40" />
-              <div className="rounded-3xl border border-cyan-500/20 bg-gradient-to-b from-navy-900/80 to-navy-900/20 p-5 shadow-[0_0_40px_rgba(15,23,42,0.9)] backdrop-blur">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-300">
-                  One Team. Total Ownership.
-                </p>
-                <p className="mt-3 text-sm text-zinc-300">
-                  Strategy, design, development, deployment — all under one roof. No
-                  handoffs, no gaps, no excuses.
-                </p>
-                <div className="mt-4 space-y-2 text-xs text-zinc-400">
-                  <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
-                    LLMs, NLP, agents, and RAG systems
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
-                    Web and product engineering
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
-                    Transparent process, weekly demos
-                  </div>
-                </div>
+            <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
+              <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-navy-900/60 shadow-[0_0_40px_rgba(15,23,42,0.9)]">
+                <Image
+                  src="/hero-ai-hand.jpg"
+                  alt="Robotic hand holding a glowing AI core"
+                  width={640}
+                  height={640}
+                  className="h-full w-full object-cover"
+                  priority
+                />
               </div>
             </div>
           </FadeInSection>

@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
-import AIOrbit from '../../components/AIOrbit';
 
 export default function AboutPage() {
   return (
@@ -20,8 +20,14 @@ export default function AboutPage() {
       </FadeInSection>
 
       <FadeInSection delay={0.08}>
-        <div className="mt-8">
-          <AIOrbit className="h-44" />
+        <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
+          <Image
+            src="/about-head-gears.jpg"
+            alt="Human head and gears representing AI thinking"
+            width={960}
+            height={480}
+            className="h-full w-full object-cover"
+          />
         </div>
       </FadeInSection>
 
