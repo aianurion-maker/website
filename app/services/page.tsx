@@ -2,6 +2,7 @@ import FadeInSection from '../../components/FadeInSection';
 import Image from 'next/image';
 
 const imageLogic = '/services-llm-nlp.jpg.png';
+const imageNlp = '/services-nlp.jpg.png';
 
 const technologies = [
   'Python',
@@ -163,7 +164,7 @@ export default function ServicesPage() {
             <div className="space-y-3 text-sm text-zinc-300">
               <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
                 <Image
-                  src={imageLogic}
+                  src={imageNlp}
                   alt="NLP and LLM systems turning language into structured insight"
                   width={1200}
                   height={720}
