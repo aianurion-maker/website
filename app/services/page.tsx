@@ -6,6 +6,7 @@ const imageNlp = '/services-nlp.jpg.png';
 const imageAgents = '/services-agents.jpg.png';
 const imageIntegration = '/services-integration.jpg.png';
 const imageWebUx = '/services-web-ux.jpg.png';
+const imageUiUx = '/services-ui-ux-diff.jpg.png';
 const imageMLOps = '/services-mlops.jpg.png';
 
 const technologies = [
@@ -377,6 +378,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageUiUx}
+                  alt="Difference between UX and UI with design concepts"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 AI products fail when users can&apos;t understand them. We design
                 interfaces that translate complex AI outputs into clear, intuitive
