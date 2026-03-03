@@ -188,6 +188,8 @@ export default function Home() {
                   title: 'Share Your Vision',
                   description:
                     'Tell us your idea, problem, or goal. Even a rough thought works.',
+                  imageSrc: '/process-share-vision.jpg.png',
+                  imageAlt: 'Visualising ideas, problems, and goals on a digital canvas',
                 },
                 {
                   title: 'We Plan & Build',
