@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
 import ContactForm from '../../components/ContactForm';
 
@@ -27,6 +28,16 @@ export default function ContactPage() {
               <p>Email: mailus@anurional.com</p>
               <p>Phone: 8105326859</p>
               <p>Response time: We typically respond within 24 hours.</p>
+            </div>
+
+            <div className="mt-6 overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
+              <Image
+                src="https://picsum.photos/seed/anurion-trust/1100/720"
+                alt="Trust and partnership"
+                width={1100}
+                height={720}
+                className="h-44 w-full object-cover opacity-95"
+              />
             </div>
           </section>
         </FadeInSection>

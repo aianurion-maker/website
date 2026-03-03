@@ -35,6 +35,8 @@ const services = [
     title: 'AI Integration',
     description:
       'Plug state-of-the-art AI into your existing product — APIs, RAG pipelines, vector databases.',
+    imageSrc: 'https://picsum.photos/seed/anurion-integration/900/700',
+    imageAlt: 'Seamless integration and connection',
   },
   {
     icon: '💻',
@@ -127,13 +129,14 @@ export default function Home() {
             <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
               <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-navy-900/60 shadow-[0_0_40px_rgba(15,23,42,0.9)]">
                 <Image
-                  src="/hero-ai-hand.jpg"
-                  alt="Robotic hand holding a glowing AI core"
+                  src="https://picsum.photos/seed/anurion-vision/900/900"
+                  alt="Abstract AI visualization representing ideas becoming products"
                   width={640}
                   height={640}
                   className="h-full w-full object-cover"
                   priority
                 />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy-950/70 via-transparent to-transparent" />
               </div>
             </div>
           </FadeInSection>
@@ -168,6 +171,8 @@ export default function Home() {
               title={service.title}
               description={service.description}
               index={index}
+              imageSrc={'imageSrc' in service ? (service as { imageSrc: string }).imageSrc : undefined}
+              imageAlt={'imageAlt' in service ? (service as { imageAlt: string }).imageAlt : undefined}
             />
           ))}
         </div>
@@ -188,11 +193,15 @@ export default function Home() {
                   title: 'We Plan & Build',
                   description:
                     'Our team designs, develops, and integrates everything — soup to nuts.',
+                  imageSrc: 'https://picsum.photos/seed/anurion-collaboration/900/600',
+                  imageAlt: 'Deep work and collaboration',
                 },
                 {
                   title: 'You Launch & Grow',
                   description:
                     'We deploy your product and stay on as your tech partner.',
+                  imageSrc: 'https://picsum.photos/seed/anurion-launch/900/600',
+                  imageAlt: 'Launch and scale',
                 },
               ].map((step, index) => (
                 <div key={step.title} className="space-y-3">
@@ -206,6 +215,17 @@ export default function Home() {
                     {step.title}
                   </h3>
                   <p className="text-sm text-zinc-400">{step.description}</p>
+                  {'imageSrc' in step ? (
+                    <div className="mt-4 overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                      <Image
+                        src={(step as { imageSrc: string }).imageSrc}
+                        alt={(step as { imageAlt: string }).imageAlt}
+                        width={640}
+                        height={420}
+                        className="h-40 w-full object-cover opacity-95 md:h-36"
+                      />
+                    </div>
+                  ) : null}
                 </div>
               ))}
             </div>

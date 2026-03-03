@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
 
+const imageLogic =
+  'https://picsum.photos/seed/anurion-logic/1200/720';
+
 const technologies = [
   'Python',
   'PyTorch',
@@ -25,29 +28,18 @@ export default function ServicesPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 lg:px-8">
       <FadeInSection>
-        <div className="grid gap-8 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] md:items-center">
-          <header className="space-y-4">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
-              Services
-            </p>
-            <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
-              AI. Built Right. From the Ground Up.
-            </h1>
-            <p className="text-sm text-zinc-400">
-              We don&apos;t just use AI — we build it. Custom models, LLM pipelines, NLP
-              systems, AI agents, and the web experiences around them.
-            </p>
-          </header>
-          <div className="overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
-            <Image
-              src="/services-model-training.jpg"
-              alt="AI model training illustration"
-              width={640}
-              height={480}
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
+        <header className="max-w-3xl space-y-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
+            Services
+          </p>
+          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
+            AI. Built Right. From the Ground Up.
+          </h1>
+          <p className="text-sm text-zinc-400">
+            We don&apos;t just use AI — we build it. Custom models, LLM pipelines, NLP
+            systems, AI agents, and the web experiences around them.
+          </p>
+        </header>
       </FadeInSection>
 
       <div className="mt-12 space-y-12">
@@ -62,6 +54,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageLogic}
+                  alt="Understanding and logic: language structured by machine intelligence"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 We design and build large language models from scratch or adapt existing
                 foundation models (GPT, LLaMA, Mistral, Gemma) for your specific domain.
@@ -169,6 +170,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageLogic}
+                  alt="NLP and LLM systems turning language into structured insight"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 Natural Language Processing is the backbone of intelligent
                 applications. We build NLP pipelines for text classification, sentiment

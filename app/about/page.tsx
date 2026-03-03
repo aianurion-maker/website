@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
 
 export default function AboutPage() {
@@ -19,17 +18,7 @@ export default function AboutPage() {
         </header>
       </FadeInSection>
 
-      <FadeInSection delay={0.08}>
-        <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
-          <Image
-            src="/about-head-gears.jpg"
-            alt="Human head and gears representing AI thinking"
-            width={960}
-            height={480}
-            className="h-full w-full object-cover"
-          />
-        </div>
-      </FadeInSection>
+
 
       <FadeInSection delay={0.15}>
         <section className="mt-10 space-y-5 text-sm leading-relaxed text-zinc-300">
