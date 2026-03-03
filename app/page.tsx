@@ -35,7 +35,7 @@ const services = [
     title: 'AI Integration',
     description:
       'Plug state-of-the-art AI into your existing product — APIs, RAG pipelines, vector databases.',
-    imageSrc: 'https://picsum.photos/seed/anurion-integration/900/700',
+    imageSrc: '/services-ai-integration.jpg',
     imageAlt: 'Seamless integration and connection',
   },
   {
@@ -129,7 +129,7 @@ export default function Home() {
             <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
               <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-navy-900/60 shadow-[0_0_40px_rgba(15,23,42,0.9)]">
                 <Image
-                  src="https://picsum.photos/seed/anurion-vision/900/900"
+                  src="/hero-visionary-core.jpg"
                   alt="Abstract AI visualization representing ideas becoming products"
                   width={640}
                   height={640}
@@ -193,14 +193,14 @@ export default function Home() {
                   title: 'We Plan & Build',
                   description:
                     'Our team designs, develops, and integrates everything — soup to nuts.',
-                  imageSrc: 'https://picsum.photos/seed/anurion-collaboration/900/600',
+                  imageSrc: '/process-deep-work.jpg',
                   imageAlt: 'Deep work and collaboration',
                 },
                 {
                   title: 'You Launch & Grow',
                   description:
                     'We deploy your product and stay on as your tech partner.',
-                  imageSrc: 'https://picsum.photos/seed/anurion-launch/900/600',
+                  imageSrc: '/process-launch-scale.jpg',
                   imageAlt: 'Launch and scale',
                 },
               ].map((step, index) => (

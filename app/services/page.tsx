@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import FadeInSection from '../../components/FadeInSection';
+import Image from 'next/image';
 
-const imageLogic =
-  'https://picsum.photos/seed/anurion-logic/1200/720';
+const imageLogic = '/services-llm-nlp.jpg';
 
 const technologies = [
   'Python',

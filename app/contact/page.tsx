@@ -32,7 +32,7 @@ export default function ContactPage() {
 
             <div className="mt-6 overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
               <Image
-                src="https://picsum.photos/seed/anurion-trust/1100/720"
+                src="/contact-trust-partnership.jpg"
                 alt="Trust and partnership"
                 width={1100}
                 height={720}
