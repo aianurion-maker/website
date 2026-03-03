@@ -1,7 +1,7 @@
 import FadeInSection from '../../components/FadeInSection';
 import Image from 'next/image';
 
-const imageLogic = '/services-llm-nlp.jpg';
+const imageLogic = '/services-llm-nlp.jpg.png';
 
 const technologies = [
   'Python',

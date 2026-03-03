@@ -35,7 +35,7 @@ const services = [
     title: 'AI Integration',
     description:
       'Plug state-of-the-art AI into your existing product — APIs, RAG pipelines, vector databases.',
-    imageSrc: '/services-ai-integration.jpg',
+    imageSrc: '/services-ai-integration.jpg.png',
     imageAlt: 'Seamless integration and connection',
   },
   {
@@ -129,7 +129,7 @@ export default function Home() {
             <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
               <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-navy-900/60 shadow-[0_0_40px_rgba(15,23,42,0.9)]">
                 <Image
-                  src="/hero-visionary-core.jpg"
+                  src="/hero-visionary-core.jpg.png"
                   alt="Abstract AI visualization representing ideas becoming products"
                   width={640}
                   height={640}
@@ -193,14 +193,14 @@ export default function Home() {
                   title: 'We Plan & Build',
                   description:
                     'Our team designs, develops, and integrates everything — soup to nuts.',
-                  imageSrc: '/process-deep-work.jpg',
+                  imageSrc: '/process-deep-work.jpg.png',
                   imageAlt: 'Deep work and collaboration',
                 },
                 {
                   title: 'You Launch & Grow',
                   description:
                     'We deploy your product and stay on as your tech partner.',
-                  imageSrc: '/process-launch-scale.jpg',
+                  imageSrc: '/process-launch-scale.jpg.png',
                   imageAlt: 'Launch and scale',
                 },
               ].map((step, index) => (
