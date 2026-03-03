@@ -1,12 +1,12 @@
 import FadeInSection from '../../components/FadeInSection';
 import Image from 'next/image';
 
-const imageLogic = '/services-llm-nlp.jpg.jpg';
-const imageNlp = '/services-nlp.jpg.jpg';
+const imageLogic = '/services-llm-nlp.jpg';
+const imageNlp = '/services-nlp.jpg';
 const imageAgents = '/services-agents.jpg.png';
 const imageIntegration = '/services-integration.jpg.png';
 const imageWebUx = '/services-web-ux.jpg.png';
-const imageUiUx = '/services-ui-ux-diff.jpg.jpg';
+const imageUiUx = '/services-ui-ux-diff.jpg';
 const imageMLOps = '/services-mlops.jpg.png';
 
 const technologies = [
