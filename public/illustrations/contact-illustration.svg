@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Contact illustration">
+  <rect width="600" height="320" fill="#071025"/>
+  <g transform="translate(30,30)">
+    <rect x="0" y="0" width="540" height="260" rx="16" fill="#061428" stroke="#06b6d4" stroke-opacity="0.06"/>
+    <g transform="translate(30,20)" fill="#dbeafe">
+      <rect x="0" y="0" width="140" height="18" rx="6"/>
+      <rect x="0" y="36" width="380" height="12" rx="6"/>
+    </g>
+    <circle cx="460" cy="170" r="40" fill="#7c3aed" opacity="0.95"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Services illustration">
+  <rect width="640" height="360" fill="#071025"/>
+  <g transform="translate(40,40)" fill-opacity="0.95">
+    <rect x="0" y="0" width="560" height="280" rx="18" fill="#071025" stroke="#7c3aed" stroke-opacity="0.08"/>
+    <g transform="translate(30,28)">
+      <rect x="0" y="0" width="120" height="80" rx="12" fill="#06b6d4"/>
+      <rect x="140" y="0" width="120" height="80" rx="12" fill="#7c3aed"/>
+      <rect x="280" y="0" width="120" height="80" rx="12" fill="#0ea5a4"/>
+      <g transform="translate(0,110)" fill="#e6eef9">
+        <rect x="0" y="0" width="480" height="12" rx="6"/>
+        <rect x="0" y="28" width="360" height="12" rx="6"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" role="img" aria-label="Robot hand and atom illustration">
+  <rect width="1000" height="600" fill="#071025"/>
+  <g transform="translate(60,60)">
+    <g>
+      <path d="M120 360c0 0 60-120 180-120s180 120 180 120" fill="#0ea5a4" opacity="0.06"/>
+      <rect x="320" y="40" width="520" height="420" rx="20" fill="#061428" stroke="#7c3aed" stroke-opacity="0.06"/>
+    </g>
+    <g transform="translate(40,20)">
+      <rect x="0" y="220" width="340" height="140" rx="18" fill="#0b1220"/>
+      <g transform="translate(40,40)" fill="#dbeafe">
+        <rect x="0" y="0" width="120" height="12" rx="6"/>
+        <rect x="0" y="28" width="220" height="12" rx="6"/>
+      </g>
+      <g transform="translate(380,40)">
+        <circle cx="120" cy="60" r="36" fill="#7c3aed"/>
+        <path d="M60 160c40-20 120-40 220-6" stroke="#06b6d4" stroke-width="6" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+  <text x="84" y="560" fill="#e6eef9" font-family="Syne, sans-serif" font-size="28">Robotics & automation</text>
+</svg>
