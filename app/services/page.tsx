@@ -3,6 +3,10 @@ import Image from 'next/image';
 
 const imageLogic = '/services-llm-nlp.jpg.png';
 const imageNlp = '/services-nlp.jpg.png';
+const imageAgents = '/services-agents.jpg.png';
+const imageIntegration = '/services-integration.jpg.png';
+const imageWebUx = '/services-web-ux.jpg.png';
+const imageMLOps = '/services-mlops.jpg.png';
 
 const technologies = [
   'Python',
@@ -215,6 +219,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageAgents}
+                  alt="Autonomous AI agent executing a multi-step plan across tools"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 We build autonomous AI agents that plan, reason, and execute tasks across
                 your tools.
@@ -259,6 +272,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageIntegration}
+                  alt="Tablet accessing a knowledge base via RAG and vector search"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 Already have a product? We plug in RAG pipelines, smart search, and LLM
                 APIs without a full rebuild.
@@ -302,6 +324,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageWebUx}
+                  alt="Web development and UI/UX design collaboration across dashboards and prototypes"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 We design and ship the web dashboards and interfaces that sit on top of
                 your AI systems.
@@ -396,6 +427,15 @@ export default function ServicesPage() {
               </h2>
             </div>
             <div className="space-y-3 text-sm text-zinc-300">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                <Image
+                  src={imageMLOps}
+                  alt="MLOps control room monitoring deployments and scaling"
+                  width={1200}
+                  height={720}
+                  className="h-44 w-full object-cover opacity-95"
+                />
+              </div>
               <p>
                 We productionise your models — serving, monitoring, and CI/CD included.
               </p>
