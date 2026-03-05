@@ -51,7 +51,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-llm-nlp.jpg.jpg"
+              src="/services-llm-nlp.jpg"
               width={1200}
               height={600}
               alt="LLM Development"
@@ -155,7 +155,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-nlp.jpg.jpg"
+              src="/services-nlp.jpg"
               width={1200}
               height={600}
               alt="NLP Solutions"
@@ -358,7 +358,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-ui-ux-diff.jpg.jpg"
+              src="/services-ui-ux-diff.jpg"
               width={1200}
               height={600}
               alt="UI/UX Design"
