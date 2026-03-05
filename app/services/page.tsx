@@ -102,6 +102,13 @@ export default function ServicesPage() {
                 Model Training &amp; Fine-Tuning
               </h2>
             </div>
+            <Image
+              src="/model-training.png"
+              width={1200}
+              height={600}
+              alt="Model Training & Fine-Tuning"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 We run the full training loop for you — data prep, experiments,
@@ -198,6 +205,13 @@ export default function ServicesPage() {
                 AI Agents &amp; Automation
               </h2>
             </div>
+            <Image
+              src="/ai-agents.png"
+              width={1200}
+              height={600}
+              alt="AI Agents & Automation"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 We build autonomous AI agents that plan, reason, and execute tasks across
@@ -242,6 +256,13 @@ export default function ServicesPage() {
                 AI Integration &amp; RAG Pipelines
               </h2>
             </div>
+            <Image
+              src="/rag-pipelines.png"
+              width={1200}
+              height={600}
+              alt="AI Integration & RAG Pipelines"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 Already have a product? We plug in RAG pipelines, smart search, and LLM
@@ -286,6 +307,13 @@ export default function ServicesPage() {
                 Web Development
               </h2>
             </div>
+            <Image
+              src="/web-dev.png"
+              width={1200}
+              height={600}
+              alt="Web Development"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 We design and ship the web dashboards and interfaces that sit on top of
@@ -329,6 +357,13 @@ export default function ServicesPage() {
                 UI/UX Design
               </h2>
             </div>
+            <Image
+              src="/uiux-design.png"
+              width={1200}
+              height={600}
+              alt="UI/UX Design"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 AI products fail when users can&apos;t understand them. We design
@@ -380,6 +415,13 @@ export default function ServicesPage() {
                 Deployment &amp; MLOps
               </h2>
             </div>
+            <Image
+              src="/mlops.png"
+              width={1200}
+              height={600}
+              alt="Deployment & MLOps"
+              className="w-full rounded-xl my-6 object-cover max-h-[400px]"
+            />
             <div className="space-y-3 text-sm text-zinc-300">
               <p>
                 We productionise your models — serving, monitoring, and CI/CD included.
