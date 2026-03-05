@@ -51,7 +51,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-llm-nlp.jpg"
+              src="/services-llm-nlp.jpg.jpg"
               width={1200}
               height={600}
               alt="LLM Development"
@@ -103,7 +103,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-model-training.jpg"
+              src="/services-model-training.jpg.png"
               width={1200}
               height={600}
               alt="Model Training & Fine-Tuning"
@@ -155,7 +155,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-nlp.jpg"
+              src="/services-nlp.jpg.jpg"
               width={1200}
               height={600}
               alt="NLP Solutions"
@@ -206,7 +206,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-agents.jpg"
+              src="/services-agents.jpg.png"
               width={1200}
               height={600}
               alt="AI Agents & Automation"
@@ -257,7 +257,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-ai-integration.jpg"
+              src="/services-ai-integration.jpg.png"
               width={1200}
               height={600}
               alt="AI Integration & RAG Pipelines"
@@ -308,7 +308,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-web-ux.jpg"
+              src="/services-web-ux.jpg.png"
               width={1200}
               height={600}
               alt="Web Development"
@@ -358,7 +358,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-ui-ux-diff.jpg"
+              src="/services-ui-ux-diff.jpg.jpg"
               width={1200}
               height={600}
               alt="UI/UX Design"
@@ -416,7 +416,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-mlops.jpg"
+              src="/services-mlops.jpg.png"
               width={1200}
               height={600}
               alt="Deployment & MLOps"
