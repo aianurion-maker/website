@@ -26,7 +26,8 @@ export default function ContactPage() {
             </p>
             <div className="space-y-1 text-sm text-zinc-400">
               <p>Email: mailus@anurional.com</p>
-              <p>Phone: 8105326859</p>
+              <p>Primary: <a href="tel:+918105326859" className="text-cyan-300 hover:text-cyan-200">+91 81053 26859</a></p>
+              <p className="text-zinc-500 text-xs">Secondary (Alternative): <a href="tel:+917483940166" className="text-zinc-500 hover:text-zinc-400">+91 74839 40166</a></p>
               <p>Response time: We typically respond within 24 hours.</p>
             </div>
 

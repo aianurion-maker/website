@@ -68,11 +68,14 @@ export default function Footer() {
               Contact
             </h3>
             <div className="flex flex-col gap-1 text-zinc-400">
-              <a href="tel:8105326859" className="hover:text-cyan-400">
-                8105326859
-              </a>
               <a href="mailto:mailus@anurional.com" className="hover:text-cyan-400">
                 mailus@anurional.com
+              </a>
+              <a href="tel:+918105326859" className="hover:text-cyan-400">
+                +91 81053 26859
+              </a>
+              <a href="tel:+917483940166" className="text-zinc-500 hover:text-zinc-400 text-xs">
+                +91 74839 40166
               </a>
               <a
                 href="https://anurional.com"
