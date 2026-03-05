@@ -51,7 +51,7 @@ export default function ServicesPage() {
               </h2>
             </div>
             <Image
-              src="/services-llm-nlp.jpg"
+              src="/llm-new.jpg"
               width={1200}
               height={600}
               alt="LLM Development"
