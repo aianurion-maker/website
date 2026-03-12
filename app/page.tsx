@@ -168,8 +168,9 @@ export default function Home() {
       {/* How it works teaser */}
       <section className="mx-auto max-w-6xl px-4 py-24 mt-16 md:px-6 lg:px-8">
         <FadeInSection>
-          <div className="rounded-3xl border border-zinc-200 bg-white px-6 py-8 sm:px-8 md:px-10 md:py-10">
-            <div className="grid gap-8 md:grid-cols-3">
+          <div className="relative pl-10">
+            <div className="pointer-events-none absolute left-4 top-0 h-full w-px bg-cyan-400/40" />
+            <div className="space-y-20">
               {[
                 {
                   title: 'Share Your Vision',
@@ -193,28 +194,35 @@ export default function Home() {
                   imageAlt: 'Launch and scale',
                 },
               ].map((step, index) => (
-                <div key={step.title} className="space-y-3">
-                  <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-cyan-300">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-full border border-cyan-500/60 bg-cyan-500/10 text-[0.65rem] text-cyan-200">
-                      {index + 1}
-                    </span>
-                    Step {index + 1}
-                  </div>
-                  <h3 className="font-display text-lg text-[#040D1E]">
-                    {step.title}
-                  </h3>
-                  <p className="text-sm text-[#64748B]">{step.description}</p>
-                  {'imageSrc' in step ? (
-                    <div className="mt-4 overflow-hidden rounded-2xl border border-zinc-200 bg-[#F8F9FA]">
+                <div
+                  key={step.title}
+                  className={`relative flex flex-col gap-8 md:items-center ${
+                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  }`}
+                >
+                  <div className="absolute left-4 top-8 h-2.5 w-2.5 -translate-x-1/2 rounded-full bg-cyan-400 shadow-[0_0_12px_rgba(0,180,216,0.6)]" />
+                  <div className="w-full md:w-1/2">
+                    <div className="overflow-hidden rounded-xl">
                       <Image
                         src={(step as { imageSrc: string }).imageSrc}
                         alt={(step as { imageAlt: string }).imageAlt}
-                        width={640}
-                        height={420}
-                        className="h-40 w-full object-cover opacity-95 md:h-36"
+                        width={1000}
+                        height={650}
+                        className="w-full rounded-xl object-cover"
                       />
                     </div>
-                  ) : null}
+                  </div>
+                  <div className="w-full md:w-1/2">
+                    <div className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-500">
+                      STEP {index + 1}
+                    </div>
+                    <h3 className="mt-3 font-display text-2xl font-bold text-[#040D1E] md:text-3xl">
+                      {step.title}
+                    </h3>
+                    <p className="mt-3 text-sm text-[#64748B] md:text-base">
+                      {step.description}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>
