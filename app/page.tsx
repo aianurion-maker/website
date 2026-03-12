@@ -208,7 +208,7 @@ export default function Home() {
                         alt={(step as { imageAlt: string }).imageAlt}
                         width={1000}
                         height={650}
-                        className="w-full rounded-xl object-cover"
+                        className="w-full rounded-xl object-cover object-top scale-110"
                       />
                     </div>
                   </div>
