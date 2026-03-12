@@ -7,49 +7,41 @@ import ServiceCard from '../components/ServiceCard';
 
 const services = [
   {
-    icon: '🧠',
     title: 'LLM Development',
     description:
       'We build, fine-tune, and deploy large language models tailored to your domain and data.',
   },
   {
-    icon: '🔬',
     title: 'Model Training & Fine-Tuning',
     description:
       'Custom model training pipelines — from dataset prep to evaluation and production deployment.',
   },
   {
-    icon: '💬',
     title: 'NLP Solutions',
     description:
       'Text classification, sentiment analysis, named entity recognition, summarization, and more.',
   },
   {
-    icon: '🤖',
     title: 'AI Agents & Automation',
     description:
       'Autonomous AI agents and smart workflow automation that work while you sleep.',
   },
   {
-    icon: '🔗',
     title: 'AI Integration',
     description:
       'Plug state-of-the-art AI into your existing product — APIs, RAG pipelines, vector databases.',
   },
   {
-    icon: '💻',
     title: 'Web Development',
     description:
       'Web products and interfaces built around your AI core — fast, scalable, production-ready.',
   },
   {
-    icon: '🎨',
     title: 'UI/UX Design',
     description:
       'Interfaces that make complex AI capabilities feel simple and intuitive to end users.',
   },
   {
-    icon: '☁️',
     title: 'Deployment & MLOps',
     description:
       'Model serving, monitoring, versioning, and scaling — we handle the full MLOps lifecycle.',
@@ -165,12 +157,9 @@ export default function Home() {
           {services.map((service, index) => (
             <ServiceCard
               key={service.title}
-              icon={<span>{service.icon}</span>}
               title={service.title}
               description={service.description}
               index={index}
-              imageSrc={'imageSrc' in service ? (service as { imageSrc: string }).imageSrc : undefined}
-              imageAlt={'imageAlt' in service ? (service as { imageAlt: string }).imageAlt : undefined}
             />
           ))}
         </div>
