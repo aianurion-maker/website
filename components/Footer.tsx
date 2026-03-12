@@ -18,9 +18,6 @@ export default function Footer() {
             <p className="max-w-xs text-sm text-[#94A3B8]">
               Your end-to-end AI technology partner.
             </p>
-            <p className="text-xs text-[#94A3B8]">
-              © 2026 Anurional AI. All rights reserved.
-            </p>
           </div>
 
           <div className="space-y-3 text-sm">

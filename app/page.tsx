@@ -35,8 +35,6 @@ const services = [
     title: 'AI Integration',
     description:
       'Plug state-of-the-art AI into your existing product — APIs, RAG pipelines, vector databases.',
-    imageSrc: '/services-ai-integration.jpg.png',
-    imageAlt: 'Seamless integration and connection',
   },
   {
     icon: '💻',
