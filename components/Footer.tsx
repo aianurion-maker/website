@@ -81,12 +81,6 @@ export default function Footer() {
                 +91 81053 26859
               </a>
               <a
-                href="tel:+917483940166"
-                className="text-[#94A3B8] hover:text-[#00B4D8] text-xs"
-              >
-                +91 74839 40166
-              </a>
-              <a
                 href="https://anurional.com"
                 target="_blank"
                 rel="noreferrer"
