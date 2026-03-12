@@ -238,8 +238,10 @@ export default function Home() {
         </FadeInSection>
       </section>
 
+      <div className="py-4" />
+
       {/* Why Anurional AI */}
-      <section className="mx-auto max-w-6xl px-4 py-24 mt-16 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-24 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="grid gap-10 md:grid-cols-[1.1fr_1.2fr] md:items-start">
             <div className="space-y-4">
