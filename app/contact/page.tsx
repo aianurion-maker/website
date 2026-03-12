@@ -11,10 +11,10 @@ export default function ContactPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
               Contact
             </p>
-            <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
+            <h1 className="font-display text-3xl font-semibold text-[#040D1E] sm:text-4xl md:text-5xl">
               Let&apos;s Build Something.
             </h1>
-            <p className="text-sm text-zinc-400">
+            <p className="text-sm text-[#64748B]">
               Fill out the form or drop us a line directly at{' '}
               <a
                 href="mailto:mailus@anurional.com"
@@ -24,14 +24,14 @@ export default function ContactPage() {
               </a>
               .
             </p>
-            <div className="space-y-1 text-sm text-zinc-400">
+            <div className="space-y-1 text-sm text-[#64748B]">
               <p>Email: mailus@anurional.com</p>
               <p>Primary: <a href="tel:+918105326859" className="text-cyan-300 hover:text-cyan-200">+91 81053 26859</a></p>
               <p className="text-zinc-500 text-xs">Secondary (Alternative): <a href="tel:+917483940166" className="text-zinc-500 hover:text-zinc-400">+91 74839 40166</a></p>
               <p>Response time: We typically respond within 24 hours.</p>
             </div>
 
-            <div className="mt-6 overflow-hidden rounded-3xl border border-white/10 bg-navy-900/60">
+            <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white">
               <Image
                 src="/contact-trust-partnership.jpg.png"
                 alt="Trust and partnership"

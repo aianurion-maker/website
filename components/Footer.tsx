@@ -12,14 +12,14 @@ export default function Footer() {
                 <span className="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_12px_rgba(34,211,238,0.8)]" />
               </span>
               <span className="font-display text-lg font-semibold tracking-tight">
-                Anurion <span className="text-cyan-400">AI</span>
+                Anurional <span className="text-cyan-400">AI</span>
               </span>
             </div>
             <p className="max-w-xs text-sm text-zinc-400">
               Your end-to-end AI technology partner.
             </p>
             <p className="text-xs text-zinc-500">
-              © 2026 Anurion AI. All rights reserved.
+              © 2026 Anurional AI. All rights reserved.
             </p>
           </div>
 

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -50,21 +51,21 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed inset-x-0 top-0 z-30 transition-all ${
-        scrolled ? 'backdrop-blur-xl bg-navy-950/70 border-b border-white/5' : 'bg-transparent'
+      className={`fixed inset-x-0 top-0 z-30 border-b transition-all ${
+        scrolled
+          ? 'border-zinc-200 bg-white/90 backdrop-blur-lg shadow-sm'
+          : 'border-transparent bg-white/90 backdrop-blur-lg'
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500/20">
-            <span className="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_12px_rgba(34,211,238,0.8)]" />
-          </span>
+          <Image src="/ai-logo.png" alt="Anurional AI logo" width={40} height={40} />
           <span className="font-display text-lg font-semibold tracking-tight">
-            Anurion <span className="text-cyan-400">AI</span>
+            Anurional <span className="text-cyan-400">AI</span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 text-sm font-medium text-zinc-300 md:flex">
+        <nav className="hidden items-center gap-8 text-sm font-medium text-[#334155] md:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -77,14 +78,14 @@ export default function Navbar() {
           <Link
             href="/contact#contact-form"
             onClick={handleStartProjectClick}
-            className="rounded-full border border-cyan-500/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-300 transition hover:bg-cyan-500 hover:text-navy-950"
+            className="rounded-full border border-cyan-500/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-500 transition hover:bg-cyan-500 hover:text-white"
           >
             Start a Project
           </Link>
         </nav>
 
         <button
-          className="inline-flex items-center justify-center rounded-full border border-white/10 p-1.5 text-zinc-200 md:hidden"
+          className="inline-flex items-center justify-center rounded-full border border-zinc-200 p-1.5 text-[#040D1E] md:hidden"
           onClick={() => setOpen((prev) => !prev)}
           aria-label="Toggle navigation"
         >
@@ -98,9 +99,9 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.2 }}
-              className="absolute inset-x-0 top-full mt-2 origin-top rounded-2xl border border-white/10 bg-navy-900/95 px-4 py-3 shadow-xl md:hidden"
+              className="absolute inset-x-0 top-full mt-2 origin-top rounded-2xl border border-zinc-200 bg-white px-4 py-3 shadow-xl md:hidden"
             >
-              <div className="flex flex-col gap-1 text-sm text-zinc-200">
+              <div className="flex flex-col gap-1 text-sm text-[#334155]">
                 {navLinks.map((link) => (
                   <Link
                     key={link.href}

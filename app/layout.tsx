@@ -17,22 +17,22 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Anurion AI — End-to-End AI Technology Partner",
+  title: "Anurional AI — End-to-End AI Technology Partner",
   description:
-    "Anurion AI builds AI-native products — LLMs, NLP systems, AI agents, and the web experiences around them.",
+    "Anurional AI builds AI-native products — LLMs, NLP systems, AI agents, and the web experiences around them.",
   metadataBase: new URL("https://anurional.com"),
   openGraph: {
-    title: "Anurion AI",
+    title: "Anurional AI",
     description: "Your end-to-end AI partner for LLMs, NLP, agents, and MLOps.",
     url: "https://anurional.com",
-    siteName: "Anurion AI",
+    siteName: "Anurional AI",
     type: "website",
     images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anurion AI",
-    description: "From model training to launch — Anurion AI builds it all.",
+    title: "Anurional AI",
+    description: "From model training to launch — Anurional AI builds it all.",
     images: ["/og-image.png"],
   },
   icons: {
@@ -48,9 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable}`}>
-      <body className="bg-navy-950 text-zinc-100 antialiased font-body relative">
-        <div className="fixed inset-0 -z-20 bg-gradient-radial from-cyan-600/10 via-navy-950 to-navy-950" />
-        <div className="grid-lines pointer-events-none fixed inset-0 -z-10" />
+      <body className="relative bg-white text-[#334155] antialiased font-body">
+        <div className="fixed inset-0 -z-20 bg-gradient-radial from-cyan-600/5 via-[#F8F9FA] to-[#F1F5F9]" />
+        <div className="grid-lines pointer-events-none fixed inset-0 -z-10 opacity-60" />
         <Navbar />
         <main className="pt-20">{children}</main>
         <Footer />

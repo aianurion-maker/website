@@ -8,21 +8,21 @@ export default function PrivacyPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
             Legal
           </p>
-          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl">
+          <h1 className="font-display text-3xl font-semibold text-[#040D1E] sm:text-4xl">
             Privacy Policy
           </h1>
-          <p className="text-sm text-zinc-400">
-            This is a simple overview of how Anurion AI approaches privacy and data
+          <p className="text-sm text-[#64748B]">
+            This is a simple overview of how Anurional AI approaches privacy and data
             handling. Update this copy as you formalize your policies.
           </p>
         </header>
       </FadeInSection>
 
       <FadeInSection delay={0.1}>
-        <section className="mt-8 space-y-4 text-sm leading-relaxed text-zinc-300">
+        <section className="mt-8 space-y-4 text-sm leading-relaxed text-[#334155]">
           <p>
             We treat your data and your customers&apos; data with care. Any information
-            you share with Anurion AI — through this website, email, or project
+            you share with Anurional AI — through this website, email, or project
             collaboration — is used solely for the purpose of working together and
             improving our services.
           </p>
@@ -51,5 +51,7 @@ export default function PrivacyPage() {
     </div>
   );
 }
+
+
 
 

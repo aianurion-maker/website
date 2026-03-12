@@ -72,7 +72,7 @@ export default function Home() {
     <div className="relative">
       {/* Hero */}
       <section className="relative flex min-h-[92vh] items-center">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.22),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(15,23,42,0.9),_rgba(4,13,30,1))]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,180,216,0.18),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(241,245,249,1),_rgba(248,250,252,1))]" />
         <div className="pointer-events-none absolute inset-x-0 bottom-8 flex justify-center">
           <ArrowDown className="h-5 w-5 animate-bounce text-cyan-400/80" />
         </div>
@@ -92,12 +92,12 @@ export default function Home() {
                 ))}
               </h1>
 
-              <p className="max-w-xl text-lg text-zinc-300">
-                From raw idea to live product — Anurion AI is your complete AI-powered
+              <p className="max-w-xl text-lg text-[#334155]">
+                From raw idea to live product — Anurional AI is your complete AI-powered
                 technology partner.
               </p>
 
-              <p className="max-w-xl text-sm text-zinc-400">
+              <p className="max-w-xl text-sm text-[#64748B]">
                 No need for multiple vendors. We handle strategy, design, development,
                 and deployment. Got an idea? We&apos;ll shape it. Got a brief?
                 We&apos;ll ship it.
@@ -112,13 +112,13 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/process"
-                  className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/0 px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-100 transition hover:border-cyan-500/70 hover:bg-cyan-500/5 hover:text-cyan-200"
+                  className="inline-flex items-center justify-center rounded-full border border-zinc-200 bg-white px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-[#334155] transition hover:border-cyan-500/70 hover:bg-cyan-500/5 hover:text-cyan-600"
                 >
                   See How We Work
                 </Link>
               </div>
 
-              <p className="text-xs font-medium uppercase tracking-[0.22em] text-zinc-500">
+              <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#64748B]">
                 From model training to live product — your end-to-end AI development
                 partner.
               </p>
@@ -127,7 +127,7 @@ export default function Home() {
 
           <FadeInSection delay={0.2}>
             <div className="relative mt-6 w-full max-w-sm md:mt-0 md:ml-auto">
-              <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-navy-900/60 shadow-[0_0_40px_rgba(15,23,42,0.9)]">
+              <div className="overflow-hidden rounded-3xl border border-cyan-500/30 bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
                 <Image
                   src="/hero-visionary-core.jpg.png"
                   alt="Abstract AI visualization representing ideas becoming products"
@@ -136,7 +136,7 @@ export default function Home() {
                   className="h-full w-full object-cover"
                   priority
                 />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy-950/70 via-transparent to-transparent" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/60 via-transparent to-transparent" />
               </div>
             </div>
           </FadeInSection>
@@ -153,10 +153,10 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
               What We Do
             </p>
-            <h2 className="font-display text-2xl font-semibold text-zinc-50 sm:text-3xl md:text-4xl">
+            <h2 className="font-display text-2xl font-semibold text-[#040D1E] sm:text-3xl md:text-4xl">
               Everything. End to End.
             </h2>
-            <p className="max-w-xl text-sm text-zinc-400">
+            <p className="max-w-xl text-sm text-[#64748B]">
               You bring the vision — or even just a vague thought. We take it from
               there.
             </p>
@@ -181,7 +181,7 @@ export default function Home() {
       {/* How it works teaser */}
       <section className="mx-auto max-w-6xl px-4 pb-16 md:px-6 lg:px-8">
         <FadeInSection>
-          <div className="rounded-3xl border border-white/5 bg-navy-900/40 px-6 py-8 sm:px-8 md:px-10 md:py-10">
+          <div className="rounded-3xl border border-zinc-200 bg-white px-6 py-8 sm:px-8 md:px-10 md:py-10">
             <div className="grid gap-8 md:grid-cols-3">
               {[
                 {
@@ -213,12 +213,12 @@ export default function Home() {
                     </span>
                     Step {index + 1}
                   </div>
-                  <h3 className="font-display text-lg text-zinc-50">
+                  <h3 className="font-display text-lg text-[#040D1E]">
                     {step.title}
                   </h3>
-                  <p className="text-sm text-zinc-400">{step.description}</p>
+                  <p className="text-sm text-[#64748B]">{step.description}</p>
                   {'imageSrc' in step ? (
-                    <div className="mt-4 overflow-hidden rounded-2xl border border-white/10 bg-navy-950/40">
+                    <div className="mt-4 overflow-hidden rounded-2xl border border-zinc-200 bg-[#F8F9FA]">
                       <Image
                         src={(step as { imageSrc: string }).imageSrc}
                         alt={(step as { imageAlt: string }).imageAlt}
@@ -243,18 +243,18 @@ export default function Home() {
         </FadeInSection>
       </section>
 
-      {/* Why Anurion AI */}
+      {/* Why Anurional AI */}
       <section className="mx-auto max-w-6xl px-4 pb-16 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="grid gap-10 md:grid-cols-[1.1fr_1.2fr] md:items-start">
             <div className="space-y-4">
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
-                Why Anurion AI
+                Why Anurional AI
               </p>
-              <h2 className="font-display text-2xl font-semibold text-zinc-50 sm:text-3xl md:text-4xl">
+              <h2 className="font-display text-2xl font-semibold text-[#040D1E] sm:text-3xl md:text-4xl">
                 One Team. Total Ownership.
               </h2>
-              <p className="text-sm text-zinc-400">
+              <p className="text-sm text-[#64748B]">
                 Specializing in LLMs, NLP, model training, and end-to-end AI product
                 development.
               </p>
@@ -263,10 +263,10 @@ export default function Home() {
               {whyPoints.map((point) => (
                 <div
                   key={point}
-                  className="flex items-start gap-3 rounded-2xl border border-white/5 bg-navy-900/40 p-3"
+                  className="flex items-start gap-3 rounded-2xl border border-zinc-200 bg-white p-3"
                 >
                   <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-cyan-400" />
-                  <p className="text-sm text-zinc-300">{point}</p>
+                  <p className="text-sm text-[#334155]">{point}</p>
                 </div>
               ))}
             </div>
@@ -282,7 +282,7 @@ export default function Home() {
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
                 Testimonials
               </p>
-              <h2 className="font-display text-2xl font-semibold text-zinc-50 sm:text-3xl">
+              <h2 className="font-display text-2xl font-semibold text-[#040D1E] sm:text-3xl">
                 What Clients Say
               </h2>
             </div>
@@ -309,11 +309,11 @@ export default function Home() {
               ].map((item) => (
                 <div
                   key={item.name}
-                  className="flex h-full flex-col justify-between rounded-2xl border border-white/5 bg-navy-900/40 p-5"
+                  className="flex h-full flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-5"
                 >
-                  <p className="text-sm text-zinc-200">&ldquo;{item.quote}&rdquo;</p>
-                  <div className="mt-4 space-y-1 text-xs text-zinc-400">
-                    <div className="font-medium text-zinc-200">{item.name}</div>
+                  <p className="text-sm text-[#334155]">&ldquo;{item.quote}&rdquo;</p>
+                  <div className="mt-4 space-y-1 text-xs text-[#64748B]">
+                    <div className="font-medium text-[#040D1E]">{item.name}</div>
                     <div>{item.company}</div>
                     <div className="flex gap-0.5 text-cyan-400">
                       {'★★★★★'.split('').map((star, index) => (
@@ -331,13 +331,13 @@ export default function Home() {
       {/* CTA Banner */}
       <section className="mx-auto max-w-6xl px-4 pb-20 md:px-6 lg:px-8">
         <FadeInSection>
-          <div className="relative overflow-hidden rounded-3xl border border-cyan-500/30 bg-gradient-to-r from-navy-900 via-navy-800/60 to-navy-900 px-6 py-10 text-center md:px-10">
+          <div className="relative overflow-hidden rounded-3xl border border-cyan-500/30 bg-gradient-to-r from-[#F1F5F9] via-[#E2E8F0] to-[#F1F5F9] px-6 py-10 text-center md:px-10">
             <div className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
             <div className="relative space-y-4">
-              <h2 className="font-display text-2xl font-semibold text-zinc-50 sm:text-3xl">
+              <h2 className="font-display text-2xl font-semibold text-[#040D1E] sm:text-3xl">
                 Got a project in mind?
               </h2>
-              <p className="text-sm text-zinc-300">
+              <p className="text-sm text-[#334155]">
                 Whether it&apos;s a clear roadmap or just a napkin sketch — we&apos;d
                 love to hear it.
               </p>
@@ -346,8 +346,8 @@ export default function Home() {
                 className="inline-flex items-center justify-center rounded-full bg-cyan-500 px-5 py-2 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-navy-950 transition hover:bg-cyan-400"
               >
                 Get In Touch →
-              </a>
-            </div>
+          </a>
+        </div>
           </div>
         </FadeInSection>
       </section>

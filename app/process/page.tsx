@@ -63,10 +63,10 @@ export default function ProcessPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
             Process
           </p>
-          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
-            How Anurion AI Works
+          <h1 className="font-display text-3xl font-semibold text-[#040D1E] sm:text-4xl md:text-5xl">
+            How Anurional AI Works
           </h1>
-          <p className="text-sm text-zinc-400">
+          <p className="text-sm text-[#64748B]">
             A clear, collaborative process designed for speed and quality.
           </p>
         </header>
@@ -91,7 +91,7 @@ export default function ProcessPage() {
                       }`}
                     >
                       <div
-                        className={`relative ml-5 rounded-3xl border border-white/5 bg-navy-900/60 px-5 py-5 shadow-[0_0_24px_rgba(15,23,42,0.8)] transition hover:border-cyan-500/60 hover:bg-navy-800/60 md:ml-0 ${
+                        className={`relative ml-5 rounded-3xl border border-zinc-200 bg-white px-5 py-5 shadow-[0_18px_40px_rgba(15,23,42,0.08)] transition hover:border-cyan-500/60 hover:bg-[#F1F5F9] md:ml-0 ${
                           isLeft ? 'md:mr-10' : 'md:ml-10'
                         } border-l-2 border-l-cyan-500`}
                       >
@@ -115,14 +115,14 @@ export default function ProcessPage() {
                         </div>
 
                         <div className="mt-3 flex items-start gap-3 md:gap-4">
-                          <div className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-2xl bg-cyan-500/10 text-cyan-300">
+                          <div className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-2xl bg-cyan-500/10 text-cyan-500">
                             <Icon className="h-5 w-5" />
                           </div>
                           <div className={`space-y-2 ${isLeft ? 'text-left' : 'md:text-right text-left'}`}>
-                            <h2 className="font-display text-lg font-semibold text-zinc-50 md:text-xl">
+                            <h2 className="font-display text-lg font-semibold text-[#040D1E] md:text-xl">
                               {phase.title}
                             </h2>
-                            <p className="text-sm text-zinc-400">{phase.body}</p>
+                            <p className="text-sm text-[#64748B]">{phase.body}</p>
                           </div>
                         </div>
                       </div>
@@ -137,7 +137,7 @@ export default function ProcessPage() {
 
       <FadeInSection delay={0.1}>
         <section className="mt-14 text-center">
-          <p className="text-sm text-zinc-400">
+          <p className="text-sm text-[#64748B]">
             Clear. Collaborative. Committed. We stay aligned from first call to
             production launch.
           </p>

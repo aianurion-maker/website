@@ -8,10 +8,10 @@ export default function AboutPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
             About
           </p>
-          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
-            We Are Anurion AI
+          <h1 className="font-display text-3xl font-semibold text-[#040D1E] sm:text-4xl md:text-5xl">
+            We Are Anurional AI
           </h1>
-          <p className="text-sm text-zinc-400">
+          <p className="text-sm text-[#64748B]">
             A team obsessed with building AI products that matter. Specializing in LLMs,
             NLP, model training, and end-to-end AI product development.
           </p>
@@ -21,9 +21,9 @@ export default function AboutPage() {
 
 
       <FadeInSection delay={0.15}>
-        <section className="mt-10 space-y-5 text-sm leading-relaxed text-zinc-300">
+        <section className="mt-10 space-y-5 text-sm leading-relaxed text-[#334155]">
           <p>
-            Anurion AI was founded on one core belief: powerful AI should be accessible
+            Anurional AI was founded on one core belief: powerful AI should be accessible
             to every business, not just the ones with huge ML teams and research
             budgets. Whether you&apos;re a startup with an AI idea or an established
             company that wants to embed intelligence into your existing product — we
@@ -44,11 +44,11 @@ export default function AboutPage() {
       </FadeInSection>
 
       <FadeInSection delay={0.2}>
-        <section className="mt-10 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+        <section className="mt-10 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
           <h2 className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
             Mission
           </h2>
-          <p className="mt-3 text-lg text-zinc-100">
+          <p className="mt-3 text-lg text-[#334155]">
             To turn every client&apos;s AI vision into a working, scalable product — from
             the first conversation to the last deployment.
           </p>
@@ -61,30 +61,30 @@ export default function AboutPage() {
             Values
           </h2>
           <div className="mt-4 grid gap-4 md:grid-cols-3">
-            <div className="space-y-2 rounded-2xl border border-white/5 bg-navy-900/40 p-4">
+            <div className="space-y-2 rounded-2xl border border-zinc-200 bg-white p-4">
               <div className="text-xl">🎯</div>
-              <h3 className="font-display text-base font-semibold text-zinc-50">
+              <h3 className="font-display text-base font-semibold text-[#040D1E]">
                 Clarity
               </h3>
-              <p className="text-sm text-zinc-400">
+              <p className="text-sm text-[#64748B]">
                 We communicate transparently. No jargon, no surprises.
               </p>
             </div>
-            <div className="space-y-2 rounded-2xl border border-white/5 bg-navy-900/40 p-4">
+            <div className="space-y-2 rounded-2xl border border-zinc-200 bg-white p-4">
               <div className="text-xl">⚡</div>
-              <h3 className="font-display text-base font-semibold text-zinc-50">
+              <h3 className="font-display text-base font-semibold text-[#040D1E]">
                 Speed
               </h3>
-              <p className="text-sm text-zinc-400">
+              <p className="text-sm text-[#64748B]">
                 AI-accelerated workflows mean faster delivery without compromise.
               </p>
             </div>
-            <div className="space-y-2 rounded-2xl border border-white/5 bg-navy-900/40 p-4">
+            <div className="space-y-2 rounded-2xl border border-zinc-200 bg-white p-4">
               <div className="text-xl">🤝</div>
-              <h3 className="font-display text-base font-semibold text-zinc-50">
+              <h3 className="font-display text-base font-semibold text-[#040D1E]">
                 Partnership
               </h3>
-              <p className="text-sm text-zinc-400">
+              <p className="text-sm text-[#64748B]">
                 We treat every project like it&apos;s our own.
               </p>
             </div>

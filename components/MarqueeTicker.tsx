@@ -6,7 +6,7 @@ const ITEMS =
 export default function MarqueeTicker() {
   return (
     <FadeInSection>
-      <section className="border-y border-white/5 bg-navy-900/60">
+      <section className="border-y border-zinc-200 bg-[#F8F9FA]">
         <div className="overflow-hidden">
           <div className="marquee-inner flex min-w-max gap-8 py-3 text-xs font-medium uppercase tracking-[0.22em] text-zinc-400">
             <span>{ITEMS}</span>
@@ -17,5 +17,7 @@ export default function MarqueeTicker() {
     </FadeInSection>
   );
 }
+
+
 
 

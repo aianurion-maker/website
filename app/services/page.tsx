@@ -29,10 +29,10 @@ export default function ServicesPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
             Services
           </p>
-          <h1 className="font-display text-3xl font-semibold text-zinc-50 sm:text-4xl md:text-5xl">
+          <h1 className="font-display text-3xl font-semibold text-[#040D1E] sm:text-4xl md:text-5xl">
             AI. Built Right. From the Ground Up.
           </h1>
-          <p className="text-sm text-zinc-400">
+          <p className="text-sm text-[#64748B]">
             We don&apos;t just use AI — we build it. Custom models, LLM pipelines, NLP
             systems, AI agents, and the web experiences around them.
           </p>
@@ -41,12 +41,12 @@ export default function ServicesPage() {
 
       <div className="mt-12 space-y-12">
         <FadeInSection>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 🧠
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 LLM Development
               </h2>
             </div>
@@ -57,7 +57,7 @@ export default function ServicesPage() {
               alt="LLM Development"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We design and fine-tune large language models for your specific domain —
                 from customer support copilots to document reasoning engines.
@@ -67,12 +67,12 @@ export default function ServicesPage() {
                 production-ready LLM endpoint.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Custom LLM architecture and configuration</li>
                   <li>Fine-tuned model weights and artifacts</li>
                   <li>Inference API and serving endpoints</li>
@@ -80,10 +80,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   PyTorch, HuggingFace Transformers, LangChain, LlamaIndex, OpenAI API,
                   Ollama.
                 </p>
@@ -93,12 +93,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.05}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 🔬
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 Model Training &amp; Fine-Tuning
               </h2>
             </div>
@@ -109,7 +109,7 @@ export default function ServicesPage() {
               alt="Model Training & Fine-Tuning"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We run the full training loop for you — data prep, experiments,
                 fine-tuning, and evaluation.
@@ -119,12 +119,12 @@ export default function ServicesPage() {
                 while still hitting the accuracy you need.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Trained model checkpoints</li>
                   <li>Training scripts and configuration files</li>
                   <li>Evaluation metrics and dashboards</li>
@@ -132,10 +132,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   PyTorch, TensorFlow, HuggingFace Trainer, Weights &amp; Biases,
                   LoRA/QLoRA, Axolotl.
                 </p>
@@ -145,12 +145,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.1}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 💬
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 NLP Solutions
               </h2>
             </div>
@@ -161,7 +161,7 @@ export default function ServicesPage() {
               alt="NLP Solutions"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We turn messy language data — tickets, chats, documents — into
                 structured insight with NLP and LLM pipelines.
@@ -171,12 +171,12 @@ export default function ServicesPage() {
                 tailored to your domain and deployed behind simple APIs.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>End-to-end NLP pipelines</li>
                   <li>REST or gRPC APIs for integration</li>
                   <li>Annotated datasets and labeling guidelines</li>
@@ -184,10 +184,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   spaCy, HuggingFace, NLTK, Transformers, FastAPI, LangChain.
                 </p>
               </div>
@@ -196,12 +196,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.15}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 🤖
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 AI Agents &amp; Automation
               </h2>
             </div>
@@ -212,7 +212,7 @@ export default function ServicesPage() {
               alt="AI Agents & Automation"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We build autonomous AI agents that plan, reason, and execute tasks across
                 your tools.
@@ -222,12 +222,12 @@ export default function ServicesPage() {
                 reliable in production.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Agent architecture and orchestration flows</li>
                   <li>Tool and API integrations</li>
                   <li>Automated workflows and playbooks</li>
@@ -235,10 +235,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   LangChain, LangGraph, AutoGen, CrewAI, n8n, Zapier, Python.
                 </p>
               </div>
@@ -247,12 +247,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.2}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 🔗
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 AI Integration &amp; RAG Pipelines
               </h2>
             </div>
@@ -263,7 +263,7 @@ export default function ServicesPage() {
               alt="AI Integration & RAG Pipelines"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 Already have a product? We plug in RAG pipelines, smart search, and LLM
                 APIs without a full rebuild.
@@ -273,12 +273,12 @@ export default function ServicesPage() {
                 so you can scale safely.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Production-ready RAG pipelines</li>
                   <li>Vector database setup and indexing</li>
                   <li>Embedding models and APIs</li>
@@ -286,10 +286,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   Pinecone, Weaviate, Chroma, pgvector, OpenAI, Cohere, LangChain.
                 </p>
               </div>
@@ -298,12 +298,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.25}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 💻
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 Web Development
               </h2>
             </div>
@@ -314,7 +314,7 @@ export default function ServicesPage() {
               alt="Web Development"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We design and ship the web dashboards and interfaces that sit on top of
                 your AI systems.
@@ -323,12 +323,12 @@ export default function ServicesPage() {
                 Modern, fast, and accessible — built to evolve as your product grows.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Full-stack web applications</li>
                   <li>Admin panels and internal tools</li>
                   <li>Analytics and monitoring dashboards</li>
@@ -336,10 +336,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   Next.js, React, Node.js, FastAPI, PostgreSQL, MongoDB.
                 </p>
               </div>
@@ -348,12 +348,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.3}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 🎨
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 UI/UX Design
               </h2>
             </div>
@@ -364,7 +364,7 @@ export default function ServicesPage() {
               alt="UI/UX Design"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 AI products fail when users can&apos;t understand them. We design
                 interfaces that translate complex AI outputs into clear, intuitive
@@ -381,12 +381,12 @@ export default function ServicesPage() {
                 tokens, and documentation that makes handoff smooth.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Wireframes and user flows</li>
                   <li>High-fidelity Figma prototypes</li>
                   <li>Design systems and component libraries</li>
@@ -394,10 +394,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   Figma, FigJam, Framer, user testing frameworks.
                 </p>
               </div>
@@ -406,12 +406,12 @@ export default function ServicesPage() {
         </FadeInSection>
 
         <FadeInSection delay={0.35}>
-          <section className="space-y-4 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+          <section className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
             <div className="flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-cyan-500/10 text-xl">
                 ☁️
               </div>
-              <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+              <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
                 Deployment &amp; MLOps
               </h2>
             </div>
@@ -422,7 +422,7 @@ export default function ServicesPage() {
               alt="Deployment & MLOps"
               className="w-full rounded-xl my-6 object-cover max-h-[400px]"
             />
-            <div className="space-y-3 text-sm text-zinc-300">
+            <div className="space-y-3 text-sm text-[#334155]">
               <p>
                 We productionise your models — serving, monitoring, and CI/CD included.
               </p>
@@ -431,12 +431,12 @@ export default function ServicesPage() {
                 systems with confidence.
               </p>
             </div>
-            <div className="mt-4 grid gap-4 text-sm text-zinc-300 md:grid-cols-2">
+            <div className="mt-4 grid gap-4 text-sm text-[#334155] md:grid-cols-2">
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Deliverables
                 </h3>
-                <ul className="mt-2 space-y-1 text-xs text-zinc-400">
+                <ul className="mt-2 space-y-1 text-xs text-[#64748B]">
                   <li>Dockerized model servers</li>
                   <li>CI/CD pipelines for models and apps</li>
                   <li>Monitoring and alerting dashboards</li>
@@ -444,10 +444,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#64748B]">
                   Tools
                 </h3>
-                <p className="mt-2 text-xs text-zinc-400">
+                <p className="mt-2 text-xs text-[#64748B]">
                   Docker, Kubernetes, AWS/GCP/Azure, MLflow, BentoML, FastAPI,
                   Prometheus, Grafana.
                 </p>
@@ -459,12 +459,12 @@ export default function ServicesPage() {
 
       {/* Technologies grid */}
       <FadeInSection delay={0.1}>
-        <section className="mt-14 space-y-6 rounded-3xl border border-white/5 bg-navy-900/40 p-6 md:p-8">
+        <section className="mt-14 space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 md:p-8">
           <div className="space-y-2">
-            <h2 className="font-display text-xl font-semibold text-zinc-50 md:text-2xl">
+            <h2 className="font-display text-xl font-semibold text-[#040D1E] md:text-2xl">
               Technologies We Use
             </h2>
-            <p className="text-sm text-zinc-400">
+            <p className="text-sm text-[#64748B]">
               Modern, proven tools across AI, infrastructure, and product engineering.
             </p>
           </div>
@@ -472,7 +472,7 @@ export default function ServicesPage() {
             {technologies.map((label) => (
               <span
                 key={label}
-                className="rounded-full border border-white/10 bg-navy-950/70 px-3 py-1 text-xs text-zinc-200"
+                className="rounded-full border border-zinc-200 bg-[#F1F5F9] px-3 py-1 text-xs text-[#334155]"
               >
                 {label}
               </span>

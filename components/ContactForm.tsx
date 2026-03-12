@@ -23,23 +23,23 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="rounded-2xl border border-white/5 bg-navy-900/50 p-6 shadow-lg shadow-black/40 sm:p-8">
+    <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-lg shadow-black/10 sm:p-8">
       {submitted ? (
-        <div className="space-y-2 text-sm text-zinc-200">
+        <div className="space-y-2 text-sm text-[#334155]">
           <h3 className="font-display text-lg font-semibold text-cyan-400">
             Message sent.
           </h3>
-          <p className="text-zinc-400">
+          <p className="text-[#64748B]">
             Thanks for reaching out. We typically respond within 24 hours.
           </p>
         </div>
       ) : (
         <form
-          className="space-y-4 text-sm text-zinc-200"
+          className="space-y-4 text-sm text-[#334155]"
           onSubmit={handleSubmit}
         >
           <div className="space-y-1.5">
-            <label htmlFor="name" className="text-xs font-medium text-zinc-400">
+            <label htmlFor="name" className="text-xs font-medium text-[#64748B]">
               Name
             </label>
             <input
@@ -47,13 +47,13 @@ export default function ContactForm() {
               name="name"
               type="text"
               required
-              className="w-full rounded-lg border border-white/10 bg-navy-900/70 px-3 py-2 text-sm text-zinc-50 outline-none ring-0 transition placeholder:text-zinc-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-[#334155] outline-none ring-0 transition placeholder:text-[#94A3B8] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
               placeholder="Your name"
             />
           </div>
 
           <div className="space-y-1.5">
-            <label htmlFor="email" className="text-xs font-medium text-zinc-400">
+            <label htmlFor="email" className="text-xs font-medium text-[#64748B]">
               Email
             </label>
             <input
@@ -61,26 +61,26 @@ export default function ContactForm() {
               name="email"
               type="email"
               required
-              className="w-full rounded-lg border border-white/10 bg-navy-900/70 px-3 py-2 text-sm text-zinc-50 outline-none ring-0 transition placeholder:text-zinc-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-[#334155] outline-none ring-0 transition placeholder:text-[#94A3B8] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
               placeholder="you@company.com"
             />
           </div>
 
           <div className="space-y-1.5">
-            <label htmlFor="company" className="text-xs font-medium text-zinc-400">
+            <label htmlFor="company" className="text-xs font-medium text-[#64748B]">
               Company / Project Name
             </label>
             <input
               id="company"
               name="company"
               type="text"
-              className="w-full rounded-lg border border-white/10 bg-navy-900/70 px-3 py-2 text-sm text-zinc-50 outline-none ring-0 transition placeholder:text-zinc-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-[#334155] outline-none ring-0 transition placeholder:text-[#94A3B8] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
               placeholder="Optional"
             />
           </div>
 
           <div className="space-y-1.5">
-            <label htmlFor="project" className="text-xs font-medium text-zinc-400">
+            <label htmlFor="project" className="text-xs font-medium text-[#64748B]">
               Tell us about your project
             </label>
             <textarea
@@ -88,19 +88,19 @@ export default function ContactForm() {
               name="project"
               required
               rows={5}
-              className="w-full rounded-lg border border-white/10 bg-navy-900/70 px-3 py-2 text-sm text-zinc-50 outline-none ring-0 transition placeholder:text-zinc-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-[#334155] outline-none ring-0 transition placeholder:text-[#94A3B8] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
               placeholder="What are you looking to build? Any goals, timelines, or constraints we should know?"
             />
           </div>
 
           <div className="space-y-1.5">
-            <label htmlFor="source" className="text-xs font-medium text-zinc-400">
+            <label htmlFor="source" className="text-xs font-medium text-[#64748B]">
               How did you hear about us?
             </label>
             <select
               id="source"
               name="source"
-              className="w-full rounded-lg border border-white/10 bg-navy-900/70 px-3 py-2 text-sm text-zinc-50 outline-none ring-0 transition focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
+              className="w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-[#334155] outline-none ring-0 transition focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/70"
               defaultValue=""
             >
               <option value="" disabled>
