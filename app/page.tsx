@@ -123,7 +123,7 @@ export default function Home() {
                   alt="Abstract AI visualization representing ideas becoming products"
                   width={640}
                   height={640}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover object-top scale-110"
                   priority
                 />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/60 via-transparent to-transparent" />
