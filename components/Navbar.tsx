@@ -59,7 +59,13 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/ai-logo.png.png" alt="Anurional AI logo" width={40} height={40} />
+          <Image
+            src="/ai-logo.png.png"
+            alt="Anurional AI logo"
+            width={40}
+            height={40}
+            className="bg-white"
+          />
           <span className="font-display text-lg font-semibold tracking-tight">
             Anurional <span className="text-cyan-400">AI</span>
           </span>
