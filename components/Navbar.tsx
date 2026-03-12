@@ -64,7 +64,6 @@ export default function Navbar() {
             alt="Anurional AI logo"
             width={40}
             height={40}
-            className="bg-white"
           />
           <span className="font-display text-lg font-semibold tracking-tight">
             Anurional <span className="text-cyan-400">AI</span>
