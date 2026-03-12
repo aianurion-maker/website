@@ -145,7 +145,7 @@ export default function Home() {
       <MarqueeTicker />
 
       {/* What we do */}
-      <section className="mx-auto max-w-6xl px-4 py-16 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-24 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="max-w-3xl space-y-3">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* How it works teaser */}
-      <section className="mx-auto max-w-6xl px-4 pb-16 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-24 mt-16 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="rounded-3xl border border-zinc-200 bg-white px-6 py-8 sm:px-8 md:px-10 md:py-10">
             <div className="grid gap-8 md:grid-cols-3">
@@ -242,7 +242,7 @@ export default function Home() {
       </section>
 
       {/* Why Anurional AI */}
-      <section className="mx-auto max-w-6xl px-4 pb-16 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-24 mt-16 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="grid gap-10 md:grid-cols-[1.1fr_1.2fr] md:items-start">
             <div className="space-y-4">
@@ -273,7 +273,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="mx-auto max-w-6xl px-4 pb-16 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-24 mt-16 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="space-y-6">
             <div className="max-w-2xl space-y-2">
@@ -327,7 +327,7 @@ export default function Home() {
       </section>
 
       {/* CTA Banner */}
-      <section className="mx-auto max-w-6xl px-4 pb-20 md:px-6 lg:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-28 mt-16 md:px-6 lg:px-8">
         <FadeInSection>
           <div className="relative overflow-hidden rounded-3xl border border-cyan-500/30 bg-gradient-to-r from-[#F1F5F9] via-[#E2E8F0] to-[#F1F5F9] px-6 py-10 text-center md:px-10">
             <div className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
