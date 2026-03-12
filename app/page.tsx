@@ -239,34 +239,60 @@ export default function Home() {
       </section>
 
       {/* Why Anurional AI */}
-      <section className="mx-auto max-w-6xl px-4 pt-12 pb-24 md:px-6 lg:px-8">
-        <FadeInSection>
-          <div className="grid gap-10 md:grid-cols-[1.1fr_1.2fr] md:items-start">
-            <div className="space-y-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">
-                Why Anurional AI
-              </p>
-              <h2 className="font-display text-2xl font-semibold text-[#040D1E] sm:text-3xl md:text-4xl">
+      <section className="bg-[#F0FAFE] py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-cyan-500 text-sm font-bold tracking-widest mb-4">
+            WHY ANURIONAL AI
+          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-4xl font-bold text-[#040D1E] mb-4">
                 One Team. Total Ownership.
               </h2>
-              <p className="text-sm text-[#64748B]">
-                Specializing in LLMs, NLP, model training, and end-to-end AI product
-                development.
+              <p className="text-gray-500 text-lg">
+                Specializing in LLMs, NLP, model training, and end-to-end AI product development.
               </p>
             </div>
-            <div className="space-y-3">
-              {whyPoints.map((point) => (
-                <div
-                  key={point}
-                  className="flex items-start gap-3 rounded-2xl border border-zinc-200 bg-white p-3"
-                >
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 flex-shrink-0 text-cyan-400" />
-                  <p className="text-sm text-[#334155]">{point}</p>
+            <div className="grid grid-cols-2 gap-6">
+              <div className="bg-white rounded-2xl p-6 shadow-sm">
+                <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-cyan-500 text-lg">🧠</span>
                 </div>
-              ))}
+                <h3 className="font-bold text-[#040D1E] mb-2">Deep AI Stack</h3>
+                <p className="text-gray-500 text-sm">
+                  LLMs, NLP, RAG, agents — we cover the full AI spectrum.
+                </p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-sm">
+                <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-cyan-500 text-lg">🤝</span>
+                </div>
+                <h3 className="font-bold text-[#040D1E] mb-2">One Team</h3>
+                <p className="text-gray-500 text-sm">
+                  No juggling between data scientists, developers, and designers.
+                </p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-sm">
+                <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-cyan-500 text-lg">💡</span>
+                </div>
+                <h3 className="font-bold text-[#040D1E] mb-2">Cost Efficient</h3>
+                <p className="text-gray-500 text-sm">
+                  LoRA/QLoRA fine-tuning — no massive GPU bills.
+                </p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-sm">
+                <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-cyan-500 text-lg">📊</span>
+                </div>
+                <h3 className="font-bold text-[#040D1E] mb-2">Full Transparency</h3>
+                <p className="text-gray-500 text-sm">
+                  Weekly demos and progress updates throughout.
+                </p>
+              </div>
             </div>
           </div>
-        </FadeInSection>
+        </div>
       </section>
 
       {/* Testimonials */}
